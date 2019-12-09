@@ -91,7 +91,7 @@ a {
     height: 30px;
   }
   
-  textarea {
+  #inputTextarea {
     height: 200px;
     width: 100%;
   }
@@ -118,6 +118,7 @@ a {
   }
   
   .nav_link {
+    font-size: 15px;
     float: right;
     margin: 20px;
     text-align: center;
@@ -126,6 +127,15 @@ a {
   }
   
   #name_tag {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #cccccc;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-style: solid;
+    font-weight: bold;
     color: white;
     background-color: #4aaaa5;
     float: left;

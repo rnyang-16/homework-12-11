@@ -31,8 +31,6 @@ font-weight: bold;
 color: white;
 background-color: #4aaaa5;
 float: left;
-padding: 20px;
-margin: 0px;
 border-width: 0px;
 text-align: center;
 }
@@ -47,16 +45,22 @@ height: 60px;
 text-align: center;
 padding: 10px;
 top: -70px;
-opacity: 1;
-filter: alpha(opacity=50); 
+opacity: 0.7;
+filter: alpha; 
+font-size: medium;
 }
 
 .photo_item {
 float: left;
-width: 300px;
-height: 200px;
+width: 350px;
+height: 300px;
 padding: 10px;
 margin: 10px;
+}
+
+#my-picture{
+height: 100%;
+width: 100%;
 }
 
 #inputTextarea{
